@@ -67,21 +67,21 @@ var usernames = [
 	"brionetteX"
 ]
 var comments = [
-	"nice! i was looking for this for a long time. thx!!!",
-	"This software is awesome! works like a charm... thanks admin :D",
-	"amazing tool bro. thanks for sharing this, this generator is incredible",
-	"AWESOME! this web is legit. amazing job, can't believe it really works",
-	"WOW this trik is amazing, it really give some real stuff. thanks for sharing! :)",
-	"Thanks for this dude... at first i thought this is some shit again.. You should sell this method",
-	"This tool is FREAKING amazing! love this, this is what i was looking for",
-	"Incredible job, finally some real generator that does its job.. thanks a lot!!",
-	"damn I just generated gems for whole my life! thats sick, thanks!!",
-	"OMG now I dont need to buy expensive gems! thx for sharing",
-	"how often can i generated resoures without getting banned??",
-	"SICK! finally an powerful tool that really works :) thank you so much, no worries about resources now :D",
-	"perfect! its so awesome, now i dont need to buy gems for real money.. thx m8",
-	"DAYUUUM!! i cant believe that really works. amazing job, thanks for sharing!",
-	"still cant believe that it works and you doesnt get banned. i've been using it for half a month and still no problems. THANKS!!"
+	"KKKKKKKKKKKKKKKKKKKKK PENSEI QUE FOSSE MENTIRA ET A NA MINHA CONTA SOCORRO",
+	"pior que funfa cara",
+	"Encher o bolso da Supercell? Nem pensar!",
+	"já uso isso desde 2014 hahah",
+	"Geral acha que eu sou rico pq sou gemado... Quem dera né?",
+	"A M E I  E S S E  B A G U L H O",
+	"99% dessas porra tem virus, mas aqui não!",
+	"de graça de graça de graça de graça de graça de graça de graça de graça de graça de graça de graça de graça de graça",
+	"jesus cristo",
+	"TO USANDO DESDE MES PASSADO E NAO LEVEI BAN",
+	"SE INSCREVAM NO MEU CANAL http:// (LINK SUSPEITO BLOQUEADO)",
+	"Funciona mesmo!",
+	"Chegou as gemas na hora aqui",
+	"Não acreidtooooooooooooooooooooooooo",
+	"Capaz da supercell falir kkkkkkkkkkkkkkkkk"
 ];
 
 shuffle(names);
@@ -202,87 +202,87 @@ function addComments() {
 
 	document.getElementById("flag1").innerHTML = "<img src='img/flags/" + Math.floor(Math.random() * (51 - 1) + 1) + ".png'>";
 	document.getElementById("flag2").innerHTML = "<img src='img/flags/" + Math.floor(Math.random() * (51 - 1) + 1) + ".png'>";
-	document.getElementById("flag3").innerHTML = "<img src='img/flags/" + Math.floor(Math.random() * (51 - 1) + 1) + ".png'>";
+	document.getElementById("flag5").innerHTML = "<img src='img/flags/" + Math.floor(Math.random() * (51 - 1) + 1) + ".png'>";
 	document.getElementById("flag4").innerHTML = "<img src='img/flags/" + Math.floor(Math.random() * (51 - 1) + 1) + ".png'>";
 
-	document.getElementById("generatedResources1").innerHTML = "generated " + Math.floor(Math.random() * (99999 - 79999) + 79999) +
+	document.getElementById("generatedResources1").innerHTML = "gerou " + Math.floor(Math.random() * (99999 - 79999) + 79999) +
 		" gems & " + Math.floor(Math.random() * (999999 - 799999) + 799999) + " gold & " +
 		Math.floor(Math.random() * (999999 - 799999) + 799999) + " elixir.";
-	document.getElementById("generatedResources2").innerHTML = "generated " + Math.floor(Math.random() * (99999 - 79999) + 79999) +
+	document.getElementById("generatedResources2").innerHTML = "gerou " + Math.floor(Math.random() * (99999 - 79999) + 79999) +
 		" gems & " + Math.floor(Math.random() * (999999 - 799999) + 799999) + " gold & " +
 		Math.floor(Math.random() * (999999 - 799999) + 799999) + " elixir.";
-	document.getElementById("generatedResources3").innerHTML = "generated " + Math.floor(Math.random() * (99999 - 79999) + 79999) +
+	document.getElementById("generatedResources3").innerHTML = "gerou " + Math.floor(Math.random() * (99999 - 79999) + 79999) +
 		" gems & " + Math.floor(Math.random() * (999999 - 799999) + 799999) + " gold & " +
 		Math.floor(Math.random() * (999999 - 799999) + 799999) + " elixir.";
-	document.getElementById("generatedResources4").innerHTML = "generated " + Math.floor(Math.random() * (99999 - 79999) + 79999) +
+	document.getElementById("generatedResources4").innerHTML = "gerou " + Math.floor(Math.random() * (99999 - 79999) + 79999) +
 		" gems & " + Math.floor(Math.random() * (999999 - 799999) + 799999) + " gold & " +
 		Math.floor(Math.random() * (999999 - 799999) + 799999) + " elixir.";
 }
 
 
 var loadingVars = [
-	"Loading...",
-	"Preparing files...",
-	"Preparing complete...",
-	"Initializing...", 
-	"Connecting to server...",
-	"Connecting to server...",
-	"Connecting to server...",
-	"Loading Module 0/21", 
-	"Loading Module 2/21", 
-	"Loading Module 2/21", 
-	"Loading Module 3/21",
-	"Loading Module 5/21", 
-	"Loading Module 7/21", 
-	"Loading Module 8/21", 
-	"Loading Module 10/21", 
-	"Loading Module 11/21", 
-	"Loading Module 11/21", 
-	"Loading Module 13/21", 
-	"Loading Module 17/21", 
-	"Loading Module 19/21",
-	"Loading Module 19/21",
-	"Loading Module 21/21", 
-	"Loading...",
-	"Verifying...",
-	"Verifying...",
-	"Preparing...",
-	"Server Application...",
-	"Authenticating user...",
-	"Authenticating user...",
-	"Applying to user ",
-	"Applying to user ",
-	"Connecting ",
-	"Connecting ",
-	"Connecting ",
-	"Loading ...",
-	"Waiting for the server...",
-	"Waiting for the server...",
-	"Connection established",
-	"Waiting for the server...",
-	"Waiting for the server...",
-	"Server response OK",
-	"Loading...",
-	"Generating package ",
-	"Generating package ",
-	"Loading...",
-	"Loading...",
-	"Generating package ",
-	"Generating package ",
-	"Generating package ",
-	"Loading...",
-	"Loading...",
-	"Generating package ",
-	"Generating package ",
-	"Loading...",
-	"Generating resources...",
-	"Generating resources...",
-	"Generating resources...",
-	"Optimizing...",
-	"Pending verification...",
-	"Pending verification...",
-	"Pending verification...",
-	"Pending verification..."
+	"Carregando...",
+	"Preparando arquivos...",
+	"Preparação completa...",
+	"Inicializando...", 
+	"Conectando ao servidor...",
+	"Conectando ao servidor...",
+	"Conectando ao servidor...",
+	"Carregando módulo 0/21", 
+	"Carregando módulo 2/21", 
+	"Carregando módulo 2/21", 
+	"Carregando módulo 3/21",
+	"Carregando módulo 5/21", 
+	"Carregando módulo 7/21", 
+	"Carregando módulo 8/21", 
+	"Carregando módulo 10/21", 
+	"Carregando módulo 11/21", 
+	"Carregando módulo 11/21", 
+	"Carregando módulo 13/21", 
+	"Carregando módulo 17/21", 
+	"Carregando módulo 19/21",
+	"Carregando módulo 19/21",
+	"Carregando módulo 21/21", 
+	"Carregando...",
+	"Verificando...",
+	"Verificando...",
+	"Preparando...",
+	"Servidor do app...",
+	"Autenticando usuário...",
+	"Autenticando usuário...",
+	"Aplicando para o usuário ",
+	"Aplicando para o usuário ",
+	"Conectando ",
+	"Conectando ",
+	"Conectando ",
+	"Carregando",
+	"Esperando os servidor...",
+	"Esperando os servidor...",
+	"Conexão estável",
+	"Esperando os servidor...",
+	"Esperando os servidor...",
+	"Servidor respondendo.",
+	"Carregando...",
+	"Gerando pacote ",
+	"Gerando pacote ",
+	"Carregando...",
+	"Carregando...",
+	"Gerando pacote ",
+	"Gerando pacote ",
+	"Gerando pacote ",
+	"Carregando...",
+	"Carregando...",
+	"Gerando pacote ",
+	"Gerando pacote ",
+	"Carregando...",
+	"Gerando recursos",
+	"Gerando recursos",
+	"Gerando recursos",
+	"Otimizando...",
+	"Verificação pendente...",
+	"Verificação pendente...",
+	"Verificação pendente...",
+	"Verificação pendente..."
 ];
 
 var counter = 0;
