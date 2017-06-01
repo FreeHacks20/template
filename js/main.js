@@ -261,7 +261,7 @@ var loadingVars = [
 	"Conexão estável",
 	"Esperando os servidor...",
 	"Esperando os servidor...",
-	"Servidor respondendo.",
+	"Servidor respondendo. ",
 	"Carregando...",
 	"Gerando pacote ",
 	"Gerando pacote ",
